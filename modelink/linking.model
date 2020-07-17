@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<integrationmm:LinkModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:integrationmm="http://www.example.org/integrationmm" xmi:id="_ckojEMgzEeqll4Zwuysh1g">
+  <links xmi:id="_eiNDAMgzEeqll4Zwuysh1g" name="refinement" description="Refinement of the Release phase activity of the DevOps process">
+    <leftMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/devopsprocess/devopsprocess.model#_6-7OAMgBEeqiIKodk0hAAQ"/>
+    <rightMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_ilivwMc6EeqcEoI-7GZEiA"/>
+  </links>
+  <links xmi:id="_8cBycMgzEeqll4Zwuysh1g" name="git specification " description="Language and tools specification for the  Git definition">
+    <leftMEs href="../../at.jku.bise.devopsml.devopsml/devopsmlmodels/first.model#_f1wFwMaXEeqGIuSYyBep0g"/>
+    <leftMEs href="../../at.jku.bise.devopsml.devopsml/devopsmlmodels/first.model#_a5WuIMagEeqGIuSYyBep0g"/>
+    <rightMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_MPGnUMc8EeqcEoI-7GZEiA"/>
+  </links>
+  <links xmi:id="_WQyxAMg0Eeqll4Zwuysh1g" name="build specification" description="Tools and languages for building purpose">
+    <leftMEs href="../../at.jku.bise.devopsml.devopsml/devopsmlmodels/first.model#_mXl6wMaaEeqGIuSYyBep0g"/>
+    <leftMEs href="../../at.jku.bise.devopsml.devopsml/devopsmlmodels/first.model#_Ckvo0MaiEeqGIuSYyBep0g"/>
+    <rightMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/devopsprocess/devopsprocess.model#_G3oKsMecEeqKTc7tdFy0-g"/>
+  </links>
+</integrationmm:LinkModel>

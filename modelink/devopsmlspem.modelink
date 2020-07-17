@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="true" forceExeedL="false" forceExeedM="false" forceExeedR="false">
+  <model path="\at.jku.bise.devopsml.devopsml\devopsmlmodels\first.model" position="LEFT" />
+  <model path="\at.jku.bise.devopsml.integrationmm\modelink\linking.model" position="MIDDLE" />
+  <model path="\at.jku.bise.devopsml.spem2\spemmodels\devopsprocess\devopsprocess.model" position="RIGHT" />
+  <model path="\at.jku.bise.devopsml.spem2\spemmodels\gitflowrelease\gitflowrelease.model" position="RIGHT" />
+</modelink>
+
