@@ -3,22 +3,18 @@
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="integrationmm" nsURI="http://www.example.org/integrationmm"
     nsPrefix="integrationmm">
   <eClassifiers xsi:type="ecore:EClass" name="LinkModel" eSuperTypes="#//Element">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="leftModels" lowerBound="1"
-        upperBound="-1" eType="#//Model"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rightModels" lowerBound="1"
-        upperBound="-1" eType="#//Model"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="links" upperBound="-1"
         eType="#//Link" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Element" abstract="true"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Model"/>
   <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//Element">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="leftMEs" lowerBound="1"
-        upperBound="-1" eType="#//ModelElement"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rightMEs" lowerBound="1"
-        upperBound="-1" eType="#//ModelElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftMEs" upperBound="-1"
+        eType="ecore:EClass ../../at.jku.bise.devopsml.devopsml/model/devopsml.ecore#//Tool"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightMEs" upperBound="-1"
+        eType="#//ModelElement"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
         eType="#//Link" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelElement" instanceTypeName="sasasasasa"
+      eSuperTypes="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//EClass"/>
 </ecore:EPackage>
