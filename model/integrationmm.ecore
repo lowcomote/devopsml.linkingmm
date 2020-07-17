@@ -9,7 +9,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Element" abstract="true"/>
   <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//Element">
     <eStructuralFeatures xsi:type="ecore:EReference" name="leftMEs" upperBound="-1"
-        eType="ecore:EClass ../../at.jku.bise.devopsml.devopsml/model/devopsml.ecore#//Tool"/>
+        eType="#//ModelElement"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rightMEs" upperBound="-1"
         eType="#//ModelElement"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
