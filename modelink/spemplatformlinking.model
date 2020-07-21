@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<linkingmm:LinkModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:linkingmm="http://www.example.org/linkingmm" xmi:id="_7lDBgMswEeqy961xXh5Xnw">
+  <links xsi:type="linkingmm:ProcessRefinementLink" xmi:id="_Vcp4sMsxEeqy961xXh5Xnw" name="Release" description="Refinement of the Release phase activity of the DevOps process">
+    <topMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/devopsprocess/devopsprocess.model#_6-7OAMgBEeqiIKodk0hAAQ"/>
+    <downMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_ilivwMc6EeqcEoI-7GZEiA"/>
+  </links>
+  <links xsi:type="linkingmm:ProcessArtifactLink" xmi:id="_BRSWIMsyEeqy961xXh5Xnw" name="Git specification" description="Language and tools specification for the  Git definition">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_MPGnUMc8EeqcEoI-7GZEiA"/>
+    <artifactMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/first.model#_vKuBEMsrEeqy961xXh5Xnw"/>
+    <artifactMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/first.model#_CuAP8MsrEeqy961xXh5Xnw"/>
+  </links>
+  <links xsi:type="linkingmm:ProcessArtifactLink" xmi:id="_huQXwMsyEeqy961xXh5Xnw" name="Build specification" description="Tools and languages for building purpose">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/devopsprocess/devopsprocess.model#_G3oKsMecEeqKTc7tdFy0-g"/>
+    <artifactMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/first.model#__UzDAMsrEeqy961xXh5Xnw"/>
+    <artifactMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/first.model#_hhOFgMsrEeqy961xXh5Xnw"/>
+  </links>
+  <links xsi:type="linkingmm:ArtifactNavigationLink" xmi:id="_DLwCQMszEeqy961xXh5Xnw" name="Jenkins navigation" description="Navigation from Jenkins to Git and Nexus">
+    <sourceMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/first.model#_4XZMAMsrEeqy961xXh5Xnw"/>
+    <targetMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/first.model#_vKuBEMsrEeqy961xXh5Xnw"/>
+    <targetMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/first.model#_8PhUIMsrEeqy961xXh5Xnw"/>
+  </links>
+</linkingmm:LinkModel>
