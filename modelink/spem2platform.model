@@ -2,10 +2,10 @@
 <linkingmm:LinkModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:linkingmm="http://www.example.org/linkingmm" xmi:id="_5FeBEM3rEeqBuIcN73M34w">
   <links xsi:type="linkingmm:Process2Platform" xmi:id="_8qJowM3rEeqBuIcN73M34w" name="Release Link" description="Link between task definition staging release and platform elements">
     <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_9GZ_UMc6EeqcEoI-7GZEiA"/>
-    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_MPGnUMc8EeqcEoI-7GZEiA"/>
-    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_so2q8Mc-EeqcEoI-7GZEiA"/>
-    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#__bAiYMc-EeqcEoI-7GZEiA"/>
-    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_Fk1nYMc_EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/git.model#_8Z5UIM3IEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/maven.model#_PKDAcM3JEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/nexus.model#_uY-XEM3IEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/jenkins.model#_YTftsM3IEeqBuIcN73M34w"/>
     <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/git-cli.model#_jifcEM3QEeqBuIcN73M34w"/>
     <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/maven-cli.model#_LhOJgM3SEeqBuIcN73M34w"/>
     <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/pom.model#_GXMfMM3TEeqBuIcN73M34w"/>
@@ -47,4 +47,5 @@
     <sourceProcessMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/devopsprocess/devopsprocess.model#_6-7OAMgBEeqiIKodk0hAAQ"/>
     <targetProcessMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_ilivwMc6EeqcEoI-7GZEiA"/>
   </links>
+  <links xsi:type="linkingmm:Platform2Platform" xmi:id="_m5-bYM53Eeq4I9SDIG1qdw"/>
 </linkingmm:LinkModel>
