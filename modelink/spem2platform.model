@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<linkingmm:LinkModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:linkingmm="http://www.example.org/linkingmm" xmi:id="_5FeBEM3rEeqBuIcN73M34w">
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_8qJowM3rEeqBuIcN73M34w" name="Release Link" description="Link between task definition staging release and platform elements">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_9GZ_UMc6EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_MPGnUMc8EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_so2q8Mc-EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#__bAiYMc-EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_Fk1nYMc_EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/git-cli.model#_jifcEM3QEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/maven-cli.model#_LhOJgM3SEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/pom.model#_GXMfMM3TEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/ccLib/releaseCC.model#_rwAvwM3TEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/ccLib/releaseCC.model#_KqeGsM3dEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/ccLib/releaseCC.model#_QtbusM3dEeqBuIcN73M34w"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_epKr8M3sEeqBuIcN73M34w" name="CI-CD Link" description="Link between CI CD tool definition and Git">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_so2q8Mc-EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/git.model#_8Z5UIM3IEeqBuIcN73M34w"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_dBw-YM3uEeqBuIcN73M34w" name="Build Link" description="Link between the tool definition Build Manager and elements of the platform">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#__bAiYMc-EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/maven.model#_PKDAcM3JEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/maven-cli.model#_LhOJgM3SEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/pom.model#_GXMfMM3TEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/ccLib/releaseCC.model#_KqeGsM3dEeqBuIcN73M34w"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/ccLib/releaseCC.model#_QtbusM3dEeqBuIcN73M34w"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_uXrr4M3vEeqBuIcN73M34w" name="Artifact Repo Link" description="Link between the tool definition Artifact Repository and Nexus">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_Fk1nYMc_EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/nexus.model#_uY-XEM3IEeqBuIcN73M34w"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_JkBhYM3wEeqBuIcN73M34w" name="SCM Link" description="Link between tool definition Source Code Manger and Git">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_MPGnUMc8EeqcEoI-7GZEiA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/git.model#_8Z5UIM3IEeqBuIcN73M34w"/>
+  </links>
+  <links xsi:type="linkingmm:Platform2Platform" xmi:id="_sDIkcM3xEeqBuIcN73M34w" name="Git Links between git and capabilities">
+    <sourcePlatformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/ccLib/releaseCC.model#_dfc-wM3UEeqBuIcN73M34w"/>
+    <targePlatformtMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/git-cli.model#_jifcEM3QEeqBuIcN73M34w"/>
+    <targePlatformtMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/git.model#_8Z5UIM3IEeqBuIcN73M34w"/>
+  </links>
+  <links xsi:type="linkingmm:Platform2Platform" xmi:id="_Y29OAM3yEeqBuIcN73M34w" name="Maven Link" description="Link between Maven tool and languages">
+    <sourcePlatformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tLib/maven.model#_PKDAcM3JEeqBuIcN73M34w"/>
+    <targePlatformtMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/maven-cli.model#_LhOJgM3SEeqBuIcN73M34w"/>
+    <targePlatformtMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/lLib/pom.model#_GXMfMM3TEeqBuIcN73M34w"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Process" xmi:id="_yATRAM3yEeqBuIcN73M34w" name="Refinement Link">
+    <sourceProcessMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/devopsprocess/devopsprocess.model#_6-7OAMgBEeqiIKodk0hAAQ"/>
+    <targetProcessMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_ilivwMc6EeqcEoI-7GZEiA"/>
+  </links>
+</linkingmm:LinkModel>
