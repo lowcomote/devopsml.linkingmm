@@ -12,22 +12,22 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ProcessRefinementLink" eSuperTypes="#//Link">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="topMEs" upperBound="-1"
+  <eClassifiers xsi:type="ecore:EClass" name="Process2Process" eSuperTypes="#//Link">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceProcessMEs" upperBound="-1"
         eType="#//ModelElement"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="downMEs" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetProcessMEs" upperBound="-1"
         eType="#//ModelElement"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ProcessArtifactLink" eSuperTypes="#//Link">
+  <eClassifiers xsi:type="ecore:EClass" name="Process2Platform" eSuperTypes="#//Link">
     <eStructuralFeatures xsi:type="ecore:EReference" name="processMEs" upperBound="-1"
         eType="#//ModelElement"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="artifactMEs" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="platformMEs" upperBound="-1"
         eType="#//ModelElement"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ArtifactNavigationLink" eSuperTypes="#//Link">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceMEs" upperBound="-1"
+  <eClassifiers xsi:type="ecore:EClass" name="Platform2Platform" eSuperTypes="#//Link">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourcePlatformMEs" upperBound="-1"
         eType="#//ModelElement"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="targetMEs" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targePlatformtMEs" upperBound="-1"
         eType="#//ModelElement"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ModelElement" instanceTypeName="modelElement"
