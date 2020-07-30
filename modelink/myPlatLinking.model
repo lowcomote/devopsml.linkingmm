@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<linkingmm:LinkModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:linkingmm="http://www.example.org/linkingmm" xmi:id="_ogJDgNGOEeqHNZ6f6L9diA" name="myPlatLinking">
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_8W8O0NGOEeqHNZ6f6L9diA" name="scm" description="Link from SourceCodeManager Tool Definition in gitflowrelease to myPlat Git elements">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_nTPQ8NDdEeqBE8JGnnwqxw"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_LRGpYNGBEeqHNZ6f6L9diA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_h6_gANGEEeqHNZ6f6L9diA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_UeFZgNGFEeqHNZ6f6L9diA"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_yySzUNGPEeqHNZ6f6L9diA" name="build" description="Link from BuildManager Tool Definition in gitflowrelease to myPlat Maven elements">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_WQzOMNDeEeqBE8JGnnwqxw"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_TZkzENGGEeqHNZ6f6L9diA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_Sy9pkNGHEeqHNZ6f6L9diA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_wrv3MNGHEeqHNZ6f6L9diA"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_PUjS4NGQEeqHNZ6f6L9diA" name="auto" description="Link from CI-CD-Server Tool Definition from gitflowrelease to myPlat Jenkins elements">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_JMVSUNDeEeqBE8JGnnwqxw"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_mPqhkNGBEeqHNZ6f6L9diA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_yx4IINGFEeqHNZ6f6L9diA"/>
+  </links>
+  <links xsi:type="linkingmm:Process2Platform" xmi:id="_fbb24NGQEeqHNZ6f6L9diA" name="repo" description="Link from ArtifactRepository Tool Definition from gitflowrelease to myPlat nexus elements">
+    <processMEs href="../../at.jku.bise.devopsml.spem2/spemmodels/gitflowrelease/gitflowrelease.model#_c8550NDeEeqBE8JGnnwqxw"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_I9EtENGIEeqHNZ6f6L9diA"/>
+    <platformMEs href="../../at.jku.bise.devopsml.platformmm/platformmmmodels/tiLib/myPlatTI.model#_aP44sNGIEeqHNZ6f6L9diA"/>
+  </links>
+</linkingmm:LinkModel>
